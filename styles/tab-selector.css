@@ -1,0 +1,22 @@
+body {
+  background: none;
+}
+
+#tab-selector input, .button-tab{
+  margin-right: 20px;
+  background: none;
+  border: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+#tab-selector input:hover, .button-tab:hover {
+  background-color: white;
+  border-radius:2px;
+  color: #0f091b;
+}
+
+.separator {
+  border: 0.5px solid #404040;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

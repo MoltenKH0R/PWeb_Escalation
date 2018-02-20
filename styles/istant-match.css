@@ -1,0 +1,131 @@
+#left-panel{
+  float: left;
+  width: 364px;
+  height: 70%;
+/*  background-color: #0f0f6040; */
+}
+#center-panel{
+  float: left;
+  width: 70px;
+  height: 70%;
+}
+#right-panel {
+   float: right;
+  width: 364px;
+  height: 70%;
+/*  background-color: #600f0f40; */
+}
+.name-holder {
+  height: 150px;
+  width: 100%;
+}
+.banner {
+  height: 150px;
+  width: 150px;;
+}
+.banner img {
+  margin: 10px;
+  height: 130px;
+  width: 130px;
+}
+h2, h3, h5{
+  display: inline-block;
+}
+#left-panel .banner{
+  float:left;
+  margin: 0;
+}
+#right-panel .banner{
+  float:right;
+  margin: 0;
+}
+#left-panel h2, #right-panel h2{
+  width: 200px;
+  margin-top: 40px;
+  margin-left: 0px;
+  margin-bottom: 5px;
+  font-size: 30px;
+  float: left;
+  color: green;
+}
+#right-panel .name-holder{
+  text-align: right;
+}
+#right-panel h2{
+  width: 200px;
+  float: right;
+  margin-right: 0px;
+  margin-left: 0;
+  color: red;
+}
+#left-panel h5, #right-panel h5 {
+  width: 200px;
+  margin-top: 0;
+  margin-left: 0px;
+  font-size: 16px;
+  float: left;
+  color: white;
+}
+#right-panel h5 {
+  float: right;
+  margin-right: 0px;
+  margin-left: 0;
+}
+.main-score{
+  height: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+#left-panel h3, #right-panel h3{
+  font-weight: normal;
+  margin: 0;
+  font-size: 26px;
+  color: gold;
+}
+#center-panel{
+  text-align: center;
+}
+#center-panel p {
+  margin-top:65px;
+  margin-bottom: 97px;
+  font-size: 50px;
+  color: gray;
+  font-weight: lighter;
+}
+#center-panel img{
+  height: 30px;
+  width: 30px;
+  margin: 10px;
+}
+.stat {
+  height: 50px;
+  width: 100%;
+}
+
+#left-panel .stat{
+  text-align: right;
+}
+#right-panel .stat{
+  text-align: left;
+}
+#left-panel p{
+  margin-top: 0;
+  padding-top: 26px;
+  margin-right: 20px;
+  color: white;
+}
+#right-panel p{
+  margin-top: 0;
+  padding-top: 26px;
+  margin-left: 20px;
+  color: white;
+}
+
+.duel-button {
+  text-align: center;
+}
+
+.duel-button input {
+  width: 100px;
+  margin-top: 30px;
+}

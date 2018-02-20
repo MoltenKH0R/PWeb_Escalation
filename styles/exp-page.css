@@ -1,0 +1,90 @@
+
+.rec-dungeon {
+  margin-top: 20px;
+  margin-left: 67px;
+  margin-bottom: 40px;
+  background-color: #30303050;
+  float:left;
+  width: 300px;
+  height: 320px;
+  border: 1px solid grey;
+
+}
+
+
+
+.rec-dungeon img{
+  float: left;
+  width: 298px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.rec-dungeon h2{
+  color: #ffbb2b;
+  font-size: 16px;
+  font-weight: normal;
+  margin-left: 20px;
+  margin-bottom: 0px;
+}
+
+.rec-dungeon h6{
+  margin-left: 20px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: #91722f;
+}
+
+.difficulty {
+  transition: color 0.3s;
+  width: 300px;
+  height: 50px;
+}
+
+.difficulty h5 {
+  float:left;
+  margin-top:19px;
+  margin-bottom: 0;
+  margin-left: 20px;
+  font-size: 12px;
+  margin-right: 16px;
+  width: 60px;
+  color: #ffbb2b;
+  transition: color 0.3s;
+}
+
+.difficulty h5:hover{
+  color: white;
+}
+
+.bar-container{
+  background-color: #202020;
+  float: right;
+  margin-right: 20px;
+  margin-top:14px;
+  border: 1px solid #606060;
+  border-radius: 2px;
+  width: 180px;
+  height: 20px;
+}
+
+.bar-container:hover{
+  border-color: white;
+}
+
+.load-bar {
+  float: left;
+  height: 18px;
+
+  background: linear-gradient(to right, #006600, #009b02);
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+.load-bar h6 {
+  width: 28px;
+  font-size: 10px;
+  margin-top: 4px;
+  margin-left: 76px;
+  color: white;
+  float: none;
+}

@@ -1,0 +1,26 @@
+body{
+  background-image: url("../images/sfondo1.jpg");
+  background-color: #0f091b;
+  background-repeat: no-repeat;
+  background-position:top center;
+}
+
+img{
+  width: 400px;
+  display: block;
+  margin: 20px auto;
+}
+
+p{
+  display: block;
+  width: 80%;;
+  margin: 60px auto;;
+  color: #ccc;
+  font-size: 16px;
+  font-weight: lighter;;
+}
+a{
+  display: block;
+  text-align: center;
+  margin: 50px auto;
+}

@@ -1,0 +1,27 @@
+.stat-pane {
+  float: left;
+  width:200px;
+  height: 60px;
+  margin: 20px 30px 20px 30px;
+}
+
+.stat-pane img {
+  float:left;
+  height: 60px;
+  margin-right: 20px;
+}
+
+.stat-pane h5{
+  margin-top: 10px;
+  margin-bottom: 0px;
+
+  float:none;
+}
+
+.stat-pane h4{
+  color: white;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  margin-left: 0px;
+  float:none;
+}

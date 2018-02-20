@@ -1,0 +1,76 @@
+#space-info h3{
+  color: white;
+  margin: 20px;
+}
+
+
+.inventory-item {
+  margin-bottom: 4px;
+  height: 60px;
+  border-bottom: 1px solid #202020;
+}
+.inventory-item img {
+  height: 60px;
+  width: 60px;
+  float: left;
+}
+.item-primary-i {
+  height: 60px;
+  width: 200px;
+
+  float: left;
+  color:white;
+}
+.item-primary-i p {
+  margin-top: 2px;
+  margin-left: 10px;
+  margin-bottom: 2px;
+}
+.item-primary-i h6{
+  margin-top: 0;
+  margin-bottom: 2px;
+  margin-left: 10px;
+}
+.item-primary-i h4{
+  margin-top: 0;
+  margin-bottom: 2px;
+  margin-left: 10px;
+  float:left;
+}
+.item-primary-i h6:last-child{
+  margin-right: 10px;
+  margin-top: 4px;
+  margin-bottom: 2px;
+  float: right;
+}
+
+.item-stat-i {
+  height: 60px;
+  width: 220px;
+  float: left;
+  color:white;
+}
+.item-stat-i p {
+  margin-left: 10px;
+  margin-top: 2px;
+  margin-bottom: 4px;
+}
+.item-stat-i h4{
+  margin-top: 0px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+}
+.item-sell button {
+  background: none;
+  float: right;
+  width: 140px;
+  margin: 8px 8px;
+  float: left;
+}
+
+.item-sell {
+  height: 60px;
+  width: 320px;
+  float:right;
+  color:white;
+}

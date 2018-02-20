@@ -1,0 +1,76 @@
+.content {
+  width: 500px;
+  margin: 0 auto;
+}
+
+header, a {
+  text-align: center;
+}
+
+img {
+  width: 130px;
+  margin: 30px;
+  opacity: 0.7;
+}
+
+h1{
+  font-family: sans-serif;
+  font-size: 35px;
+  color: #EFEFEF;
+  font-weight: 300;
+}
+
+input, select{
+  width: 100%;
+  margin: 6px 0;
+  padding: 8px 8px;
+}
+
+form{
+  margin: 0 60px;
+}
+
+input[type=date], input[name="cemail"]{
+  margin-bottom: 0px;
+}
+input[name="name"], input[name="lastn"]{
+  width: 50%;
+  float: left;
+}
+ p{
+   color: #EFEFEF;
+ }
+
+
+input[type=button]{
+  border-color: #7F0000;
+  color: #9F0000;
+  transition: border-color 0.3s, color 0.3s, background-color 0.3s;
+}
+input[type=button]:hover{
+  border-color: #9F0000;
+  color: #DF0000;
+  background-color: #383838;
+}
+
+
+#uerror , #eerror{
+  margin: 4px;
+  text-align: center;
+  color: red;
+  visibility: hidden;
+}
+
+/*---------------------------------Mobile loders------------------------------------*/
+
+@media only screen and (max-width: 500px){
+  .content{
+    width: 100%;
+  }
+  form {
+    margin: 0 10px;
+  }
+  img {
+    margin: 5px;
+  }
+}

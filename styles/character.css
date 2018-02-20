@@ -1,0 +1,83 @@
+#left-panel{
+  width: 30%;
+
+  float: left;
+}
+
+.item-pane-l {
+  height: 60px;
+  margin-bottom: 20px;
+
+}
+.item-pane-l:first-child{
+  margin-top: 20px;
+}
+.item-pane-l img {
+  border-radius: 4px;
+  float:left;
+  margin-right: 10px;
+}
+.item-pane-l p{
+  margin-top: 10px;
+  margin-bottom: 0px;
+  color: white;
+  float: left;
+}
+.item-pane-l h6{
+  margin-top: 10px;
+  margin-bottom: 0px;
+  color: grey;
+  float: none;
+}
+
+#right-panel {
+  width: 30%;
+  text-align: right;
+  float:right;
+}
+
+.item-pane-r {
+  height: 60px;
+
+  margin-bottom: 20px;
+}
+.item-pane-r:first-child{
+  margin-top: 20px;
+}
+
+.item-pane-r img {
+  float:right;
+  border-radius: 4px;
+  margin-left: 10px;
+}
+
+.item-pane-r p {
+  padding-top: 8px;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.item-pane-r h6{
+  margin-top: 1px;
+  margin-bottom:0px;
+  color: grey;
+
+  margin-left: 60px;
+}
+
+#center-panel{
+  width: 40%;
+
+  float: left;
+}
+
+#center-panel img {
+  margin-top: 120px; /*solo in questo caso anomalo*/
+    width: 100%;
+}
+
+.item-pane-l img , .item-pane-r img {
+  height: 58px;
+  width: 58px;
+}

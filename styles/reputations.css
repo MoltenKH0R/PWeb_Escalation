@@ -1,0 +1,17 @@
+
+.rep-title h2 {
+  color: white;
+}
+
+.rep-title p {
+  margin-left: 10px;
+  margin-top: 18px;
+  margin-bottom: 6px;
+  color: #ffbb2b;
+}
+.bar {
+  
+  height: 4px;
+  background: linear-gradient(to right, #006600, #009b02);
+  float: left;
+}

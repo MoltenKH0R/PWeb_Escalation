@@ -1,0 +1,71 @@
+#player-info{
+    width: 700px;
+    height: 120px;
+  /*  border: 0.5px solid #767676; */
+    margin: 0 auto;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+#left {
+  height: 100%;
+  width: 60%;
+  float: left;
+}
+
+
+#name-container{
+  float:left;
+  margin: 30px 0;
+  padding-right: 20px;
+  border-right: 1px solid #707070;
+}
+
+#left img {
+  float: left;
+  width: 110;
+  height: 100px;
+  margin: 10px;
+}
+
+#left h2, #right h2 {
+  font-size: 32px;
+  font-family: arial;
+  font-weight: bold;
+  margin:0px;
+  float: left;
+  color:#89c96c;
+}
+
+#left p, #right p,h4 {
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  float: left;
+  margin: 0px;
+}
+
+#right {
+  word-spacing: 5px;
+  height: 50px;
+  float: left;
+  margin: 35px 0;
+}
+
+#right h4{
+  font-size: 18px;
+  font-weight: normal;
+  color: #ffbb2b;
+}
+
+#right p{
+  margin-top: 10px;
+  font-weight: normal;
+}
+
+#currency {
+  color: green;
+  float: right;
+  padding-top: 3px;
+
+}

@@ -1,0 +1,14 @@
+body{
+  background-image: url("../images/sfondo.jpg");
+  background-color: #0f091b;
+  background-repeat: no-repeat;
+  background-position:top center;
+}
+
+ #main-frame{
+  display: block;
+  width: 800px;
+  height: 1000px;
+  margin: 0 auto;
+  border: none;
+}

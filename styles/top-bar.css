@@ -1,0 +1,32 @@
+#top-bar-container {
+  background-color: #1c1c1c;
+  border-bottom: 0.3px solid grey;
+  margin:0px;
+  height: 36px;
+
+}
+#top-bar-left a{
+  float: left;
+}
+#top-bar-left a, #top-bar-right a {
+
+  margin: 9px;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: 'Roboto';
+}
+
+#top-bar-left img {
+  float:left;
+  width: 30px;
+  margin:2px 2px 2px 20px;
+
+}
+
+#top-bar-right a {
+  float:right;
+}
+
+#top-bar-right a:first-child{
+  margin-right: 20px;
+}

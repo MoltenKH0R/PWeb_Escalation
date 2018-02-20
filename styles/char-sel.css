@@ -1,0 +1,58 @@
+body{
+  background-image: url("../images/sfondo1.jpg");
+}
+
+#title-tab {
+  width: 92%;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+#title-tab h1{
+  width: auto;
+  font-weight: lighter;
+  color: #aaa;
+}
+
+#list-container{
+  float: left;
+  width: 20%;
+  margin-left: 4%;
+  height: 500px;
+  border-right: 0.5px solid #aaa;
+  text-align: center;
+}
+
+#list-container button {
+  background: none;
+  border: none;
+  width: 95%;
+  border-bottom: 0.5px solid #99999950;
+  border-radius: 0;
+  height: 60px;
+  transition: color 0.3s, border-radius 0.3s, background-color 0.3s;
+
+}
+createnew{
+  color: red;
+}
+
+#list-container button:hover {
+  border: 1px solid white;
+
+  border-radius: 2px;
+}
+#list-container button:focus{
+  background-color: white;
+  color: black;
+  border-radius: 2px;
+}
+
+#player-container {
+  width: 72%;
+  height: 500px;
+  margin-right: 4%;
+  float: left;
+}
