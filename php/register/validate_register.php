@@ -1,5 +1,5 @@
 <?php
-  include('dbConfig.php');
+  include('../utils/dbConfig.php');
 
   $username = $_POST['username'];
   $email = $_POST['email'];
@@ -39,7 +39,7 @@
   }else { echo "ERROR:".$new_user."<br>".$connection->error;}
   if($inewuser){
     if($connection->query($new_user_data)== TRUE){
-      header("Location:login.php");
+      header("Location:../login/login.php");
     }else { echo "ERROR:".$new_user_data."<br>".$connection->error;}
   }
 

@@ -14,7 +14,7 @@
     <body>
 
       <div class="content">
-        <form action="../php/validate_register.php" method="post">
+        <form action="validate_register.php" method="post">
 
             <select name="country">
             	<option value="AF">Afghanistan</option>
